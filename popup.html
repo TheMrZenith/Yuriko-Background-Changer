@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>   
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        /* border: 2px solid #444; */
+        /* border-radius: 16px; */
+        margin: 0;
+        padding: 24px;
+        width: 400px;
+        background: #0f0f0f;
+        color: #fff;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 12px;
+        width: 100%;
+        max-width: 500px;
+      }
+
+      button {
+        padding: 12px;
+        border: none;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #1f1f1f, #292929);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      }
+
+      button:hover {
+        background: linear-gradient(135deg, #3a3a3a, #505050);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+      }
+
+      button:active {
+        transform: scale(0.97);
+        color: #90fff9;
+        background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="bgBase">BaseV2</button>
+      <button id="bg2020">Summer 2020</button>
+      <button id="bgChrismas2020">Christmas 2020</button>
+      <button id="bg2021">Summer 2021</button>
+      <button id="bg2022">Summer 2022</button>
+      <button id="bg2023">Summer 2023</button>
+      <button id="bg2024">Summer 2024</button>
+      <button id="bg2025">Summer 2025</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
