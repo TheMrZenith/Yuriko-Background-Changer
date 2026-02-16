@@ -5,8 +5,11 @@ const urls = {
   bg2021: "https://img.animeworld.ac/general/YurikoEstiva2021.png",
   bg2022: "https://img.animeworld.ac/general/YurikoEstiva2022.png",
   bg2023: "https://img.animeworld.ac/general/YurikoEstiva2023.png",
+  bgChrismas2023:"https://img.animeworld.ac/general/YurikoNatale2023.png",
   bg2024: "https://img.animeworld.ac/general/YurikoEstiva2024.png",
+  bgChrismas2024: "https://img.animeworld.ac/general/YurikoNatale2024.png",
   bg2025: "https://img.animeworld.ac/general/YurikoEstiva2025.png",
+  bgChrismas2025: "https://img.animeworld.ac/general/YurikoNatale2025.png",
   bg9years: "https://img.animeworld.ac/general/yuriko9anni.png"
 };
 
